@@ -1,0 +1,7 @@
+*.bak
+*.log
+*.out
+build
+node_modules
+reports
+Backup

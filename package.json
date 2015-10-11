@@ -1,0 +1,35 @@
+{
+  "name": "base-js-appfrm",
+  "version": "1.0.0",
+  "description": "Build file for all the Javascript code in the COMS application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barlowm/Base-JS-AppFrm.git"
+  },
+  "author": "mike barlow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barlowm/Base-JS-AppFrm/issues"
+  },
+  "homepage": "https://github.com/barlowm/Base-JS-AppFrm",
+  "dependencies": {
+    "grunt": "*",
+    "grunt-cli": "*"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "grunt-mocha": "latest",
+    "mocha": "latest",
+    "eslint": "*",
+    "eslint-config-defaults": "*",
+    "eslint-html-reporter": "*",
+    "grunt-eslint": "*"
+  },
+  "main": "gruntfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tests"
+  }
+}
